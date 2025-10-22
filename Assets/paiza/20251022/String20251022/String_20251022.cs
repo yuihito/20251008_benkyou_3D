@@ -21,6 +21,15 @@ public class String_20251022 : MonoBehaviour
         int numberA = int.Parse(textA);
         int A = numberA;
 
+        string textB = input[1];
+        int numberB = int.Parse(textB);
+        int B = numberB;
+
+        int D = A - B;
+        int P = A * B;
+
+        Console.WriteLine($"{D} {P}");
+
 
 
 
